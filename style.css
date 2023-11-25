@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+body{
+    background-color:white;
+    color: rgb(1, 23, 1);
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+    border: 2px solid;
+   width: 850px;
+    height: auto;
+    margin: 0px 275px;
+    
+}
+.main{
+    display: flex;
+}
+.left{
+    width: 350px;
+    border: 1px solid gray
+   
+}
+.title{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: green;
+}
+.title:hover{
+    color: darkgreen
+
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.list{
+    list-style: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.l1{
+    border: 1px solid;
+    margin: 5px;
+    box-shadow:1px 1px 0px  ;
+    
+}
+.l1:hover{
+    color: darkgreen;
+    box-shadow:  2px 2px 0px green;
+}
+/* end of left side*/
+.right{
+    width: 520px;
+    border: 1px solid gray;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 5px;
+    background-color:lightgray;
+    letter-spacing: 2px;
+
+}
+.intro:hover{
+    box-shadow: 2px 2px 0px gray;
+}
+.para{
+    font-size: 10px;
+    width: 500px;
+    text-align: center;
+}
+.h{
+    border: 1px solid black;
+    margin: 5px;
+    background-color:lightgray;
+    letter-spacing: 2px;
+
+}
+.h:hover{
+    box-shadow: 2px 2px 0px gray;
+}
+.c{
+    border: 1px solid black;
+    margin: 5px;
+    background-color:lightgray;
+    letter-spacing: 2px;
+}
+.c:hover{
+    box-shadow: 2px 2px 0px gray;
+}
+.b{
+    border: 1px solid black;
+    margin: 5px;
+    background-color:lightgray;
+    letter-spacing: 2px;
+}
+.b:hover{
+    box-shadow: 2px 2px 0px gray;
+}
+.j{
+    border: 1px solid black;
+    margin: 5px;
+    background-color:lightgray;
+    letter-spacing: 2px;
+}
+.j:hover{
+    box-shadow: 2px 2px 0px gray;
+}
